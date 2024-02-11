@@ -89,6 +89,14 @@ mark {
   background-color:  #7dca98;
   padding-left: 2px;
   padding-right: 2px;
+  color: white;
+}
+
+.flair {
+  background-color: #63b0ab;
+  padding-left: 2px;
+  padding-right: 2px;
+  color: white;
 }
 
 .container {
@@ -102,29 +110,40 @@ mark {
 
 .content1 {
   display: flex;
+  border: 1px solid #b2aeae;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  padding: 10px;
 }
 
 .content2 {
   display: block;
+  border: 1px solid #b2aeae;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  padding: 10px;
 }
 
 .title1 {
   width: 100%;
+  padding-left: 10px;
 }
 
 .text1 {
   flex: 1;
-  padding: 10px;
+  padding: 0px 20px 0px 0px;
 }
 
 .text2 {
   flex: 2;
-  padding: 10px;
+  padding: 0px 20px 0px 0px;
 }
 
 .logo2 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .image1 {
@@ -133,14 +152,14 @@ mark {
   width: 50%;
   height: auto;
   object-fit: contain;
-  padding: 10px;
+  padding: 20px 0px 0px 0px;
 }
 
 .image2 {
   max-width: calc(33.33% - 20px);
   height: auto;
   object-fit: contain;
-  padding: 10px;
+  padding: 20px 0px 0px 0px;
 }
 
 .image3 {
@@ -153,16 +172,26 @@ mark {
 }
 
 .image4 {
+  display: block;
+  margin: 0 auto;
   padding: 10px 0px 10px 0px;
-  max-width: 100%;
+  max-width: 95%;
   height: auto;
   object-fit: contain;
-  margin-left: auto;
-  margin-right: auto;
+}
+
+.text-flair {
+  color: #87c49d;
+  font-size: 18px;
 }
 
 .timeline {
   position: relative;
+  border: 1px solid #b2aeae;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  padding: 20px 10px 10px 10px;
 }
 
 .timeline-item {
