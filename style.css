@@ -92,13 +92,6 @@ mark {
   color: white;
 }
 
-.flair {
-  background-color: #63b0ab;
-  padding-left: 2px;
-  padding-right: 2px;
-  color: white;
-}
-
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -126,9 +119,27 @@ mark {
   padding: 10px;
 }
 
+.content3 {
+  display: flex;
+  padding: 10px;
+}
+
+.content4 {
+  display: flex;
+  border: 1px solid #b2aeae;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  padding: 10px;
+}
+
 .title1 {
   width: 100%;
   padding-left: 10px;
+}
+
+.title2 {
+  width: 100%;
 }
 
 .text1 {
@@ -139,6 +150,18 @@ mark {
 .text2 {
   flex: 2;
   padding: 0px 20px 0px 0px;
+}
+
+.text3 {
+  flex: 1;
+  padding: 0px 20px 0px 0px;
+}
+
+.text4 {
+  width: 100%;
+  padding: 0px 20px 0px 0px;
+  overflow-wrap: break-word;
+  text-align: start;
 }
 
 .logo2 {
@@ -180,11 +203,6 @@ mark {
   object-fit: contain;
 }
 
-.text-flair {
-  color: #87c49d;
-  font-size: 18px;
-}
-
 .timeline {
   position: relative;
   border: 1px solid #b2aeae;
@@ -202,9 +220,8 @@ mark {
 
 .timeline-line {
   width: 2px;
-  background-color: #7dca98; /* Adjust color as needed */
+  background-color: #7dca98;
   margin-right: 20px;
-  /* Adjust height to match the height of the timeline content */
   min-height: 100px;
 }
 
@@ -218,6 +235,16 @@ mark {
 
 .timeline-content p {
   margin-bottom: 0;
+}
+
+.source1 {
+  color: #7dca98;
+  text-decoration: none;
+}
+
+.source2 {
+  color: blue;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 768px) {
