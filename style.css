@@ -8,7 +8,9 @@ html {
 [class*="col-"] {
   width: 100%
 }
-
+li{
+  text-align: left;
+}
 @media only screen and (min-width: 900px) {
   .col-1 { width: 8.33%; }
   .col-2 { width: 16.66%; }
